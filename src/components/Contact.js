@@ -1,20 +1,20 @@
 import React from "react";
 import { AppBar, Toolbar, Button, Box, Typography, TextField, Container, Grid, Card, CardContent, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
-import sarkphoto from "../sarkphoto.JPG";
-import tanishqphoto from "../tanishqphoto.jpg";
+import anuphoto from "../anurag.png";
+import ayuphoto from "../ayush.png";
 
 
 const teamMembers = [
   {
-    name: "Sarthak Sisodia",
+    name: "Anurag Thakur",
     role: "Front-End with Back-End",
-    image: sarkphoto,
+    image: anuphoto,
   },
   {
-    name: "Tanishq Joshi",
-    role: "Back-end with cloud dev",
-    image: tanishqphoto,
+    name: "Aysh Prajapati",
+    role: "Back-end with Cloud Dev",
+    image: ayuphoto,
   },
 ];
 
